@@ -1,0 +1,93 @@
+@import url(./index.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    background-color: #363636	;
+    font-family: 'Roboto', sans-serif;
+    color: #D3D3D3;
+}
+
+p {
+    font-weight: 400;
+}
+
+ol li {
+    font-weight: 400;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    background-color: #000;
+    background-size: cover;
+    width: 100vw;
+}
+
+.cabecalho img {
+
+    width: 30rem;
+
+}
+
+#nav-container {
+    width: 100%;
+}
+
+.navegacao {
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+.navegacao a {
+    text-decoration: none;
+    font-size: 1.50rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #D3D3D3;
+    text-align: center;
+}
+
+.navegacao a:hover {
+    color: #fff;
+}
+
+
+.rodape {
+    width: 100vw;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+#logo{
+    margin-left: 15px;
+}
+.rodape img {
+    width: 5rem;
+
+}
+
+
+.social a {
+    margin-left: 100px;
+    
+}
+
+nav.social{
+    opacity: 90%;
+    margin-right: 30px;
+
+}
