@@ -1,5 +1,5 @@
 @import url(./index.css);
-
+@import url(./cursos.css);
 * {
     margin: 0;
     padding: 0;
@@ -64,7 +64,14 @@ body {
 .navegacao a:hover {
     color: #fff;
 }
+#htmlS {
+    color: #FFB6C1;
+    font-weight: bolder;
+}
 
+#htmlS:hover {
+    color: #fbfbfb;
+}
 
 .rodape {
     width: 100vw;
@@ -73,6 +80,7 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: #000;
+   
 }
 
 #logo{
@@ -86,11 +94,58 @@ body {
 
 .social a {
     margin-left: 100px;
-    
+    padding-right: 5px;
 }
 
 nav.social{
     opacity: 90%;
     margin-right: 30px;
 
+}
+@media (max-width:500px) {
+    section>p {
+        width: 90%;
+    }
+}
+
+@media (max-width:900px) {
+    .navegacao a {
+        font-size: 1rem;
+    }
+
+    .rodape {
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+}
+
+@media (max-width:1100px) {
+    .first-line {
+        flex-direction: column;
+    }
+
+    .first-line p {
+        text-align: center;
+    }
+
+    .first-line img {
+        max-width: 90%;
+    }
+
+    .second-line {
+        flex-direction: column-reverse;
+    }
+
+    .second-line p {
+        text-align: center;
+    }
+
+    .second-line img {
+        max-width: 90%;
+    }
+
+    h2 {
+        max-width: 90%;
+        text-align: center;
+    }
 }
