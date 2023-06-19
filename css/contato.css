@@ -1,0 +1,73 @@
+.contato{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 50vw;
+    background-color: #ffb6db;
+    background-origin: padding-box;
+    margin-bottom: 4rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px #fbfbfb;
+
+}
+.contato div{
+
+    margin-bottom: 1rem;
+}
+.contato h2{
+    margin-top: 2rem;
+    color: #000;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contato li{
+    color: #000;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.instagram a{
+   text-decoration: none;
+   color:#000;
+}
+.instagram a:hover{
+    color: #fbfbfb;
+}
+.facebook a{
+    text-decoration: none;
+    color:#000;
+ }
+ .facebook a:hover{
+     color: #fbfbfb;
+ }
+ .loc a{
+    text-decoration: none;
+    color:#000;
+ }
+ .loc a:hover{
+     color: #fbfbfb;
+ }
+.contato img{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    width: 70%;
+}
+@media (max-width:910px) {
+    .contato{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        width: 80vw;
+        background-origin: padding-box;
+        margin-bottom: 2rem;
+        border-radius: 5px;
+        box-shadow: 0 2px 6px #fbfbfb;
+    
+    }
+}
