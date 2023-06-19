@@ -117,11 +117,31 @@ nav.social{
     }
 
     .rodape {
-        flex-direction: column;
+
         padding-bottom: 2rem;
     }
-}
 
+.rodape img{
+    width: 3rem;
+}
+}
+@media (max-width:500px) {
+    header {
+        width: 100%;
+    }
+    .navegacao a {
+        font-size: 1rem;
+    }
+
+    .rodape {
+
+        padding-bottom: 2rem;
+    }
+
+.rodape img{
+    width: 2rem;
+}
+}
 @media (max-width:1100px) {
     .first-line {
         flex-direction: column;
