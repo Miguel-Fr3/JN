@@ -1,4 +1,4 @@
-.top-section{
+.top-section-cursos{
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -7,75 +7,111 @@
     margin-bottom: 10px;
 }
 
-.top-section>div {
+.top-section-cursos>div {
     display: flex;
     align-items: center;
     width: 80%;
     gap: 2rem;
 }
 
-.top-section>div>img, .top-section>div>p {
+.top-section-cursos>div>img, .top-section>div>p {
     display: flex;
     flex: 1;
 }
 
-.top-section>div>img {
-    width: 20rem;
+.top-section-cursos>div>img {
+    width: 30rem;
     height: 30rem;
     border-radius: 5px;
     box-shadow: 0 2px 6px #fbfbfb
 }
 
-.first-line p {
+.first-line-cursos p {
     text-align: left;
     font-size: 2rem;
     color: #fbfbfb;
 }
 
-.second-line{
+.second-line-cursos{
     display: flex;
     flex-direction: row-reverse;
 }
-.second-line p {
+.second-line-cursos p {
     text-align: right;
     font-size: 2rem;
     color: #fbfbfb;
 }
 
-.conteudo-index{
+.conteudo-cursos{
     display: flex;
     flex-direction: column;
     gap: 3rem;
     align-items: center;
 }
 
-.conteudo-index h1{
+.conteudo-cursos h1{
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 3rem;
     margin-top: 2rem;
     color: #fbfbfb;
 }
-.conteudo-index>img{
+.conteudo-cursos>img{
     display: flex;
     margin: auto;
     justify-content: center;
     flex-direction: row;
     width: 200px;
-    
+    height: auto;
     margin-bottom: 2rem;
     border-radius: 5px;
     box-shadow: 0 2px 6px #000;
     max-width: 80%;
 }
-@media (max-width:500px){
-    .conteudo-index h1 {
-        font-size: 2rem;
+@media (max-width:500px) {
+    section>p {
+        width: 90%;
     }
-    .first-line>p {
+}
+
+@media (max-width:900px) {
+    .navegacao a {
         font-size: 1rem;
     }
-    .second-line>p {
-        font-size: 1rem;
+
+    .rodape {
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+}
+
+@media (max-width:1100px) {
+    .first-line-cursos {
+        flex-direction: column;
+    }
+
+    .first-line-cursos p {
+        text-align: center;
+    }
+
+    .first-line-cursos img {
+        max-width: 90%;
+    }
+
+    .second-line-cursos {
+        flex-direction: column-reverse;
+    }
+
+    .second-line-cursos p {
+        text-align: center;
+    }
+
+    .second-line-cursos img {
+        max-width: 90%;
+    }
+
+    h2 {
+        max-width: 90%;
+        text-align: center;
     }
 }
